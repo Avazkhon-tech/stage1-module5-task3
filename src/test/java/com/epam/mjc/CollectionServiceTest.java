@@ -48,7 +48,8 @@ public class CollectionServiceTest {
 
         Optional<Integer> expected = Optional.of(1);
 
-        Optional<Integer> result = new CollectionService().findMin(lists);
+        Optional<Integer> result = new CollectionService().
+                findMin(lists);
 
         assertEquals(expected, result);
     }
